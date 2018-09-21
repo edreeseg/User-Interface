@@ -28,22 +28,29 @@ h1, h2, h3, h4, h5 {
 }
 
 @media only screen and (min-width: 961px){ /* Desktop screens */
-
-  body {
-    padding-top: 20px;
-  }
+body{
+  min-height: 100%;
+}
   header {
     height: 60%;
   }
   .nav-bar {
-    position: relative;
-    height: 7.65%;
+    z-index: 1;
+    background-color: #bde0ff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 7%;
     width: 100%;
+    border-bottom: 4px solid black;
   }
   .nav-bar nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     display: inline-block;
     width: 75%;
-    height: 1px;
+    height: 50%;
     vertical-align: middle;
   }
   .nav-bar a {
@@ -53,12 +60,13 @@ h1, h2, h3, h4, h5 {
   }
   .nav-bar img {
     position: absolute;
-    height: 100%;
     right: 5%;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
   }
   .intro {
-    margin-top: 50px;
+    margin-top: 7.65%;
+    padding-top: 50px;
   }
   .intro section {
     display: inline-block;
