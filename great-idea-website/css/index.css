@@ -62,10 +62,10 @@ h1, h2, h3, h4, h5 {
     position: absolute;
     right: 5%;
     top: 50%;
+    transform: translateY(-50%);
     width: 183px;
     height: 36px;
     background: url(../img/logo.png);
-    transform: translateY(-50%);
   }
   .logo:hover {
     background: url(../img/logo-hover.png);
@@ -75,7 +75,8 @@ h1, h2, h3, h4, h5 {
     margin-top: 7.65%;
     padding-top: 50px;
   }
-  .intro section {
+
+  .intro div {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
@@ -87,7 +88,7 @@ h1, h2, h3, h4, h5 {
     background: url(../img/header-img.png) no-repeat;
     background-size: contain;
   }
-  .intro section h1 {
+  .intro div h1 {
     font-size: 4.5em;
   }
   .intro button {
