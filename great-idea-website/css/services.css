@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+body {
+    overflow-y: scroll;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.nav-bar {
+    z-index: 1;
+    background-color: #bde0ff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    border-bottom: 4px solid black;
+}
+.nav-bar nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 75%;
+    height: 50%;
+    vertical-align: middle;
+}
+.nav-bar a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: gray;
+    text-decoration: none;
+    margin-left: 9%;
+}
+.logo {
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    width: 183px;
+    height: 36px;
+    background: url(../img/logo.png);
+    transform: translateY(-50%);
+}
+.logo:hover {
+    background: url(../img/logo-hover.png);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+header {
+    padding-top: 7vh;
+    height: 50%;
+}
+header section {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+.staff-photo {
+    background: url(../img/staff-photo-1.jpg) no-repeat right;
+    background-size: contain;
+}
+.services-intro {
+    background-color: dodgerblue;
+}
