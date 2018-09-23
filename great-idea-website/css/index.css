@@ -90,6 +90,16 @@ hr {
   padding: 10px 5%;
   border-bottom: 1px solid black;
 }
+.content:last-child div:first-child {
+  border-top: 1px solid black;
+}
+.accent-img {
+  width: 80%;
+  margin: 10px auto;
+  height: 182px;
+  background: url(../img/mid-page-accent.jpg) no-repeat 70% 0%;
+  background-origin: content-box;
+}
 footer {
   margin: 10px 5%;
 }
