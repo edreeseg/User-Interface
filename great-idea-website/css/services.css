@@ -89,15 +89,19 @@ header section {
     border-bottom: 1px solid black;
 }
 .list div {
+    position: relative;
     display: inline-block;
     width: 50%;
     height: 100%;
-    text-align: center;
-    vertical-align: middle;
 }
 .list ul {
     display: inline-block;
-    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 1.5em;
+    list-style-type: square;
     height: 100px;
 }
 .services-filler-image {
